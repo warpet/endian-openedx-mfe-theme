@@ -1,0 +1,39 @@
+// Use this file to set SASS variables for @edx/paragon
+// See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
+
+$primary: #76b100;
+$primary-hover: #85c20c;
+$secondary: #999999;
+$brand: #76b100;
+// $success: $green;
+// $info: $teal;
+// $danger: $red;
+// $warning: $yellow;
+$light: #e1dddb;
+$dark: #151515;
+$dark-hover: #2f2f2f;
+$accent-a: #76b100;
+$accent-b: #202020;
+
+$link-color: $brand;
+$link-hover-color: $primary-hover;
+
+$white-hover: #e5e5e5;
+
+$MAIN_BORDER_RADIUS: 6.5px;
+
+$border-radius: $MAIN_BORDER_RADIUS;
+$border-radius-lg: $MAIN_BORDER_RADIUS;
+$border-radius-sm: $MAIN_BORDER_RADIUS;
+
+$btn-border-radius: $MAIN_BORDER_RADIUS;
+$btn-border-radius-lg: $MAIN_BORDER_RADIUS;
+$btn-border-radius-sm: $MAIN_BORDER_RADIUS;
+$btn-focus-border-radius: $MAIN_BORDER_RADIUS;
+
+$input-border-radius: $MAIN_BORDER_RADIUS;
+$input-border-radius-lg: $MAIN_BORDER_RADIUS;
+$input-border-radius-sm: $MAIN_BORDER_RADIUS;
+
+$nav-tabs-border-radius: $MAIN_BORDER_RADIUS;
+$nav-pills-border-radius: $MAIN_BORDER_RADIUS;

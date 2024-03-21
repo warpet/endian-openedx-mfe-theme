@@ -1,0 +1,222 @@
+// Use this file to define style overrides for @edx/paragon
+// This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+@import "_variables.scss";
+
+#root header {
+  background-color: $dark;
+  color: white;
+}
+
+#root footer {
+  background-color: $dark;
+  color: $secondary;
+}
+
+.btn-brand {
+  background-color: $primary;
+
+  &:hover {
+    background-color: $primary-hover;
+  }
+}
+
+.pgn__pageBanner__accentA {
+  background-color: $dark;
+  color: white;
+}
+
+.pgn__pageBanner-dismissButtonContainer > .btn-icon.btn-icon-black {
+  color: white;
+}
+
+.learner-variant-header a {
+  background-color: transparent;
+  border-radius: 0;
+  color: white;
+  border-top: none !important;
+  border-radius: 0 !important;
+
+  &:nth-child(3) {
+    display: none;
+  }
+
+  &:hover {
+    background-color: transparent !important;
+    color: $white-hover !important;
+  }
+}
+
+header {
+  & .btn-icon.btn-icon-inverse-primary-active,
+  .btn-icon.btn-icon-inverse-primary-active.active,
+  .btn-icon.btn-icon-inverse-primary-active.hover,
+  .btn-icon.btn-icon-inverse-primary-active:active,
+  .btn-icon.btn-icon-inverse-primary-active:hover {
+    background: transparent;
+    color: white;
+  }
+
+  & .btn-icon.btn-icon-inverse-primary-active.focus,
+  .btn-icon.btn-icon-inverse-primary-active:focus {
+    background: transparent;
+    color: white;
+  }
+
+  & .site-header-desktop .main-nav .nav-link {
+    background: transparent;
+    color: white;
+
+    &:hover {
+      color: $white-hover;
+    }
+  }
+
+  & a.text-gray-700 {
+    color: white !important;
+
+    &:hover {
+      color: $white-hover !important;
+    }
+  }
+}
+
+.nav-small-menu {
+  & .btn-inverse-primary {
+    background-color: $dark;
+    color: white;
+    border-top: 1px solid $secondary !important;
+
+    &:hover,
+    &:active {
+      background-color: $dark-hover;
+      color: white;
+    }
+  }
+
+  & .btn-inverse-primary.focus:before,
+  .btn-inverse-primary:focus:before {
+    border: none;
+  }
+}
+
+.learner-variant-header .course-link {
+  border-bottom-color: $primary !important;
+}
+
+[dir="ltr"] .btn.pgn__avatar-button-avatar {
+  background: transparent;
+  color: white;
+  border: 0;
+
+  &:active {
+    background: transparent;
+    color: white;
+  }
+
+  &:focus {
+    background-color: $dark-hover;
+  }
+}
+
+.btn-dark.focus:before,
+.btn-dark:focus:before,
+.btn-light.focus:before,
+.btn-light:focus:before {
+  border: 0;
+}
+
+[dir="ltr"] .dropdown-menu[x-placement^="bottom"],
+[dir="ltr"] .dropdown-menu[x-placement^="left"],
+[dir="ltr"] .dropdown-menu[x-placement^="right"],
+[dir="ltr"] .dropdown-menu[x-placement^="top"],
+[dir="ltr"] .menu-content.pin-right,
+[dir="rtl"] .menu-content.pin-left {
+  background-color: $dark;
+}
+
+.pgn__dropdown-item,
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: $secondary;
+  background: transparent;
+}
+
+.dropdown-divider {
+  border-top: 1px solid $secondary;
+}
+
+.donut-hole.complete-stroke,
+.donut-ring.complete-stroke,
+.donut-segment.complete-stroke {
+  stroke: $primary;
+}
+
+[data-testid="currentGradeTooltipContent"] {
+  background: white !important;
+  color: black !important;
+  border-radius: 1rem;
+}
+
+#non-passing-grade-tooltip {
+  background: white;
+
+  & .arrow:after {
+    border-top-color: white;
+  }
+}
+
+.site-header-desktop .main-nav .expanded .nav-link,
+.site-header-desktop .main-nav .nav-link.active,
+.site-header-desktop .main-nav .nav-link:focus,
+.site-header-desktop .main-nav .nav-link:hover {
+  background: transparent !important;
+  color: $white-hover !important;
+}
+
+.learning-header .user-dropdown .btn,
+.menu-trigger {
+  border: none !important;
+  color: white;
+
+  &:hover {
+    background: transparent !important;
+    opacity: 0.8;
+    color: $white-hover !important;
+  }
+
+  &:active {
+    background: transparent !important;
+  }
+
+  &:focus {
+    &::before {
+      border: none !important;
+    }
+  }
+
+  & .btn-outline-primary:not(:disabled):not(.disabled).active,
+  .btn-outline-primary:not(:disabled):not(.disabled):active,
+  .show > .btn-outline-primary.dropdown-toggle {
+    background: transparent;
+  }
+}
+
+.pgn__card .pgn__card-wrapper-image-cap.horizontal .pgn__card-image-cap {
+  object-fit: contain;
+}
+
+// LOGIN
+
+.large-screen-svg-primary {
+  fill: $dark !important;
+}
+
+.layout {
+  & .bg-primary-400 {
+    background-color: $dark !important;
+  }
+}
