@@ -34,26 +34,26 @@ To use a custom brand and theme\...
 
 `/logo.svg`
 
-![logo](/logo.svg)
+![logo](logo.svg)
 
 `/logo-trademark.svg` A variant of the logo with a trademark ® or ™.
 Note: This file must be present. If you don\'t have a trademark variant
 of your logo, copy your regular logo and use that.
 
-![logo](/logo-trademark.svg)
+![logo](logo-trademark.svg)
 
 `/logo-white.svg` A variant of the logo for use on dark backgrounds
 
-![logo](/logo-white.svg)
+![logo](logo-white.svg)
 
 `/favicon.ico` A site favicon
 
-![favicon](/favicon.ico)
+![favicon](favicon.ico)
 
 `/paragon/images/card-imagecap-fallback.png` A variant of the default
 fallback image for [Card.ImageCap] component.
 
-![card-imagecap-fallback](/paragon/images/card-imagecap-fallback.png)
+![card-imagecap-fallback](paragon/images/card-imagecap-fallback.png)
 
 `/paragon/fonts.scss`, `/paragon/_variables.scss`,
 `/paragon/_overrides.scss` A SASS theme for
